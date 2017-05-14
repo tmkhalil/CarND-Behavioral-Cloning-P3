@@ -72,7 +72,8 @@ For the data collection part, I followed all the helpful hints of the course ins
 - Then, collect more data to capture the fact that we want the car to be as close to the middle of the road as possible by trying to record as many frames as possible of the car while moving from the sides of the road to the center.
 - Doing the same in the first two steps but driving in the reverse direction to help the model to generalize.
 - Data augmentation by introducing new examples by flipping the original ones and reverse the steering angle sign.
-- As a result of all the previous steps, I collected a number of 37622 training examples before data augmentation and the double after data augmentation.
+- Only center images were filtered and used for training and validation.
+- As a result of all the previous steps, I collected a number of 37622 training examples before data augmentation and the double after data augmentation (75244 examples).
 
 Here are some examples of training the car to drive in the middle
 
